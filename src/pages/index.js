@@ -16,6 +16,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
   const longitude = upcomingMeetup && parseFloat(upcomingMeetup.location.mapsLongitude);
   return (
     <>
+    <h1>abc</h1>
       <section className="header">
         <div className="header-container  container">
           {home.headerImage && <img className="header-image" src={home.headerImage.image} alt={home.headerImage.imageAlt} />}
